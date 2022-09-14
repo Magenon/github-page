@@ -45,7 +45,7 @@ export default function Navbar() {
               <NavbarLink to="/downloads">Downloads</NavbarLink>
             </li>
             <li>
-              <NavbarLink to="/blog">Blog</NavbarLink>
+              <NavbarLink to="/blog">Blogs</NavbarLink>
             </li>
             <li>
               <NavbarLink to="/contato">Contato</NavbarLink>
