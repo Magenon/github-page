@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    flex: 1;
+    align-items: "center";
+    justify-content: "center";
+}
+
+.header {
+font-size: 30;
+background-color: transparent;
+color: '#FFF';
+}
+
+.input {
+    width: 300;
+    height: 50;
+    background-color: "#FFF";
+    /* marginVertical: 15; */
+    padding-left: 15;
+}
+
+.video-estile {      
+    position: relative;
+    /* padding-bottom: 8%; */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    /* margin-top: 0px; */
+    /* margin-bottom: 30px; */
+   }
+
+   .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
+   
