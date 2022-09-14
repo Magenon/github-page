@@ -12,7 +12,7 @@ import Splash from "./components/SplashScreen";
 import Global from "./components/style/Global";
 
 const LightTheme = {
-    pageBackground: "red",
+    pageBackground: "green",
     titleColor: "black",
     titleColorFooter: "black",
     tagLineColor: "red"
