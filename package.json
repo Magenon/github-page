@@ -1,6 +1,7 @@
 {
   "name": "react-state",
   "version": "0.1.0",
+  "homepage": "github-page/",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",

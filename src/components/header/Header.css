@@ -1,66 +1,24 @@
-<<<<<<< HEAD
-.logo {  
-    width: 170px;
-    height: 59px;
-    background-size: 100%;
-    margin: 8px;
-    z-index: 400;
-    background-image: url('../img/logo-sennda-topo.png');
-    float: left;
-    position: relative;
-    transition: all 200ms linear;      
+.Navbar {
+    color: rgb(250, 248, 245) !important;
+    font-size: 30px;
 }
 
-.logo-container {   
-    width: 220px;
-    height: 112px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(../img/fundo-logo-container.png) no-repeat;
-    background-size: 100%;
-
-    box-sizing: border-box;
+.NavbarToggler {
+    color: rgb(250, 248, 245) !important;
+    font-size: 30px;
 }
 
-header {
-    align-items: center;
-    height: 12vh;
-    display: flex;
-    justify-content: space-between;
-    background-color: transparent;
-    box-shadow: 0 0 1rem black;    
-=======
-.logo {  
-    width: 170px;
-    height: 59px;
-    background-size: 100%;
-    margin: 8px;
-    z-index: 400;
-    background-image: url('../img/logo-sennda-topo.png');
-    float: left;
-    position: relative;
-    transition: all 200ms linear;      
+.NavbarBrand {
+    color: rgb(250, 248, 245) !important;
+    font-size: 30px;
 }
 
-.logo-container {   
-    width: 220px;
-    height: 112px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(../img/fundo-logo-container.png) no-repeat;
-    background-size: 100%;
-
-    box-sizing: border-box;
+.Nav {
+    color: rgb(250, 248, 245) !important;
+    font-size: 30px;
 }
 
-header {
-    align-items: center;
-    height: 12vh;
-    display: flex;
-    justify-content: space-between;
-    background-color: transparent;
-    box-shadow: 0 0 1rem black;    
->>>>>>> 31c82e9 (adionar arquivos)
+.Navtext {
+    color: rgb(250, 248, 245) !important;
+    font-size: 30px;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import './Header.css'
-import Menu from '../menu'
+import Menu from '../../menu'
 
 function Header() {
     return (

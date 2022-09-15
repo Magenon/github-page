@@ -7,7 +7,7 @@ import Downloads from './components/pages/downloads/Downloads';
 import Blog from './components/pages/blog/Blog';
 import Contato from './components/pages/contato/Contato';
 import Menu from './components/pages/conta_cliente/ContaCli';
-import Headers from './components/pages/headers/Headers';
+import Headers from './components/pages/header/Header';
 import Home from './components/pages/home/Home';
 
 import reportWebVitals from'./reportWebVitals';
