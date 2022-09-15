@@ -15,8 +15,8 @@ jobs:
           node-version: '14.x'
       - name: Build web-app
         run: |
-        npm install --prefix assets && \
-  npm --prefix ./assets ci --progress=false --no-audit --loglevel=error
+         npm install [<package-spec> ...]
+ 
           npm ci
           npm run build
       - name: Deploy to gh-pages
