@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.249bde0e.css",
-    "main.js": "/github-page/static/js/main.aab15c25.js",
-    "static/js/787.52031c41.chunk.js": "/github-page/static/js/787.52031c41.chunk.js",
-    "static/media/bg-vermelho.jpg": "/github-page/static/media/bg-vermelho.7ba7072d091193c7d174.jpg",
-    "index.html": "/github-page/index.html",
-    "main.249bde0e.css.map": "/github-page/static/css/main.249bde0e.css.map",
-    "main.aab15c25.js.map": "/github-page/static/js/main.aab15c25.js.map",
-    "787.52031c41.chunk.js.map": "/github-page/static/js/787.52031c41.chunk.js.map"
+    "main.css": "/Magenon/github-page.git/static/css/main.364370f7.css",
+    "main.js": "/Magenon/github-page.git/static/js/main.98ff9247.js",
+    "static/js/787.52031c41.chunk.js": "/Magenon/github-page.git/static/js/787.52031c41.chunk.js",
+    "static/media/bg-vermelho.jpg": "/Magenon/github-page.git/static/media/bg-vermelho.7ba7072d091193c7d174.jpg",
+    "index.html": "/Magenon/github-page.git/index.html",
+    "main.364370f7.css.map": "/Magenon/github-page.git/static/css/main.364370f7.css.map",
+    "main.98ff9247.js.map": "/Magenon/github-page.git/static/js/main.98ff9247.js.map",
+    "787.52031c41.chunk.js.map": "/Magenon/github-page.git/static/js/787.52031c41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.249bde0e.css",
-    "static/js/main.aab15c25.js"
+    "static/css/main.364370f7.css",
+    "static/js/main.98ff9247.js"
   ]
 }
