@@ -1,7 +1,7 @@
 {
   "name": "react-state",
   "version": "0.1.0",
-  "homepage": "https://github.com/Magenon/github-page.git",
+  "homepage": "github-page/",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
