@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Magenon/github-page.git/static/css/main.364370f7.css",
-    "main.js": "/Magenon/github-page.git/static/js/main.98ff9247.js",
+    "main.js": "/Magenon/github-page.git/static/js/main.ee5f358c.js",
     "static/js/787.52031c41.chunk.js": "/Magenon/github-page.git/static/js/787.52031c41.chunk.js",
     "static/media/bg-vermelho.jpg": "/Magenon/github-page.git/static/media/bg-vermelho.7ba7072d091193c7d174.jpg",
     "index.html": "/Magenon/github-page.git/index.html",
     "main.364370f7.css.map": "/Magenon/github-page.git/static/css/main.364370f7.css.map",
-    "main.98ff9247.js.map": "/Magenon/github-page.git/static/js/main.98ff9247.js.map",
+    "main.ee5f358c.js.map": "/Magenon/github-page.git/static/js/main.ee5f358c.js.map",
     "787.52031c41.chunk.js.map": "/Magenon/github-page.git/static/js/787.52031c41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.364370f7.css",
-    "static/js/main.98ff9247.js"
+    "static/js/main.ee5f358c.js"
   ]
 }
