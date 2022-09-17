@@ -1,9 +1,76 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.menuLateral {
+  background-color: black;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  left: -250px; /* faz sumir abaixo disso */
+}
+
+.menuLateral .titulo {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 45px;
+  font-size: 24px;
+  border-bottom: 2px solid red;
+}
+
+.menuLateral ul {
+  list-style: none;
+}
+
+.menuLateral ul li {
+  line-height: 40px;
+  border-bottom: 1px solid white;
+}
+
+.menuLateral ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 30px;
+  font-weight: bold;
+  display: block;
+}
+
+.menuLateral ul li a:hover {
+  background-color: #370707;
+  transition: 0.5s;
+}
+
+.menuLateral ul ul li a {
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 60px;
+  background-color: #131313;
+}
+
+.menuLateral ul ul {
+  display: none;
+}
+
+.menuLateral ul .itensNordeste.mostra {
+  display: block;
+}
+
+.menuLateral ul .itensSudeste.mostra {
+  display: block;
+}
+
+
+
+
 .navigation {
   background-color: transparent;
   position: center;
   right: 10px;
   width: 100%;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);  
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
 .brand-name {
@@ -46,7 +113,7 @@
   top: 50%;
   right: 50px;
   transform: translateY(-50%);
-  display: none;  
+  display: none;
 }
 
 .hamburger:hover {
@@ -65,7 +132,7 @@
     left: 0;
     width: 100%;
     height: calc(100vh - 60px);
-    background-color: white;
+    background-color: rgb(219, 97, 97);
     border-top: 1px solid black;
 
     right: 50px;
