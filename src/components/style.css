@@ -291,6 +291,8 @@ li {
   color: brown;
   font-size: x-large;
   text-decoration: none;
+
+  display: block; /* apagar se não alinhar em downloads */
 }
 
 .navbar-nav>li:hover>a,
@@ -298,6 +300,7 @@ li {
   color: rgb(31, 182, 38);
   background-color: rgb(69, 75, 73);
   text-decoration: none;
+  border-radius: 10px;      
 }
 
 /* ====================== P ========================================== */

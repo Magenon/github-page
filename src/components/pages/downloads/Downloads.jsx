@@ -1,9 +1,9 @@
 import * as React from "react";
 import { FaDownload, FaCloudDownloadAlt, FaFileArchive } from 'react-icons/fa';
-import { NavbarLink, ContainerDown } from "../../SplashScreen.js";
+import { Par, NavbarLink, ContainerDown } from "../../SplashScreen.js";
 
 function Downloads() {
-    return (               
+    return (
         <div className="">
             <div class="pagina-titulo">
                 <div class="container">
@@ -14,7 +14,7 @@ function Downloads() {
                     </div>
                 </div>
             </div>
-            
+
             {/* // <!-- Breadcrumb --> */}
             <div class="breadcrumb">
                 <div class="container-fluid">
@@ -30,29 +30,39 @@ function Downloads() {
                     </div>
                 </div>
             </div>
-
-            <ContainerDown>
-                <NavbarLink class="nav-link" to="www.google.com" target="">
+            <Par>
+                <div className="">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a className="nav-link" aria-current="page" href="https://get.teamviewer.com/j97mcep" target="blank">
+                                TeamViewer &nbsp; <FaDownload /> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.sennda.com.br/download/SetupPrize.exe" target="blank">
+                                Sennda Prize &nbsp; <FaDownload /> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.sennda.com.br/download/SetupNFE.exe" target="blank">
+                                Sennda NFe &nbsp;<FaDownload /></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.sennda.com.br/download/setupcontador.exe" target="blank">
+                                Módulo do Contador – Download de XML’s &nbsp;&nbsp;<FaCloudDownloadAlt /></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" a href="https://www.sennda.com.br/download/SetupNFE.zip" target="blank">
+                                Sennda NFe comprimido (zip) Versão 3.10 &nbsp;&nbsp;<FaFileArchive /></a>
+                        </li>
+                    </ul>
+                </div>
+            </Par>
+            {/* <NavbarLink class="nav-link" to="www.google.com" target="">
                     Teamviewer &nbsp; <FaDownload />
-                </NavbarLink>
-                <p/>                
-                <NavbarLink className="nav-link" to="www.google.com" target="">
-                    Sennda Prize &nbsp; <FaDownload />
-                </NavbarLink>
-                <p/>
-                <NavbarLink className="nav-link" to="www.google.com" target="">
-                    Sennda NFe &nbsp; <FaDownload />
-                </NavbarLink>
-                <p/>
-                <NavbarLink className="nav-link" to="www.google.com" target="">
-                    Módulo do Contador – Download de XML’s &nbsp;&nbsp; <FaCloudDownloadAlt />
-                </NavbarLink>
-                <p/>                
-                <NavbarLink className="nav-link" to="www.google.com" target="">
-                    Sennda NFe comprimido (zip) Versão 3.10 &nbsp;&nbsp; <FaFileArchive />
-                </NavbarLink>
-            </ContainerDown>
-        </div>           
+
+                </NavbarLink>                           */}
+
+
+        </div>
     )
 };
 

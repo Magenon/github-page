@@ -44,7 +44,7 @@
   transition: background-color 0.2s ease-in-out;
   position: absolute;
   top: 50%;
-  right: 25px;
+  right: 50px;
   transform: translateY(-50%);
   display: none;  
 }
@@ -53,7 +53,7 @@
   background-color: #af5d26;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 985px) {
   .hamburger {
     display: inline-flex;
   }
@@ -67,7 +67,8 @@
     height: calc(100vh - 60px);
     background-color: white;
     border-top: 1px solid black;
-    display: none;
+
+    right: 50px;
   }
 
   .navigation-menu li {
